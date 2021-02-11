@@ -1,0 +1,53 @@
+2021-01-29 22:55:39,685 INFO    MainThread:2769 [wandb_setup.py:_flush():70] setting env: {'entity': 'dc925', 'project': 'graphmimic', 'sweep_id': 'pizkh5nu', 'root_dir': '/home/dc925/project/graphmimic/code', 'run_id': '0baevvuv', 'sweep_param_path': '/home/dc925/project/graphmimic/code/wandb/sweep-pizkh5nu/config-0baevvuv.yaml'}
+2021-01-29 22:55:39,685 INFO    MainThread:2769 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-01-29 22:55:39,685 INFO    MainThread:2769 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-01-29 22:55:39,685 INFO    MainThread:2769 [wandb_init.py:_log_setup():318] Logging user logs to /home/dc925/project/graphmimic/code/wandb/run-20210129_225539-0baevvuv/logs/debug.log
+2021-01-29 22:55:39,685 INFO    MainThread:2769 [wandb_init.py:_log_setup():319] Logging internal logs to /home/dc925/project/graphmimic/code/wandb/run-20210129_225539-0baevvuv/logs/debug-internal.log
+2021-01-29 22:55:39,703 INFO    MainThread:2769 [wandb_run.py:_config_callback():660] config_cb None None {'data_dir': '/home/dc925/project/data/graphmimic/sample/', 'learning_rate': 2e-05, 'max_seq_length': 128, 'model_name_or_path': 'xhlu/electra-medal', 'num_train_epochs': 4, 'output_dir': '$OUTPUT_DIR', 'per_gpu_eval_batch_size': 32, 'per_gpu_train_batch_size': 32}
+2021-01-29 22:55:41,868 INFO    MainThread:2769 [wandb_run.py:_console_start():1396] atexit reg
+2021-01-29 22:55:41,869 INFO    MainThread:2769 [wandb_run.py:_redirect():1259] redirect: SettingsConsole.REDIRECT
+2021-01-29 22:55:41,869 INFO    MainThread:2769 [wandb_run.py:_redirect():1264] Redirecting console.
+2021-01-29 22:55:41,870 INFO    MainThread:2769 [redirect.py:install():213] install start
+2021-01-29 22:55:41,870 INFO    MainThread:2769 [redirect.py:install():228] install stop
+2021-01-29 22:55:41,870 INFO    MainThread:2769 [redirect.py:install():213] install start
+2021-01-29 22:55:41,871 INFO    MainThread:2769 [redirect.py:install():228] install stop
+2021-01-29 22:55:41,871 INFO    MainThread:2769 [wandb_run.py:_redirect():1310] Redirects installed.
+2021-01-29 22:55:42,602 INFO    MainThread:2769 [wandb_run.py:_atexit_cleanup():1366] got exitcode: 2
+2021-01-29 22:55:42,603 INFO    MainThread:2769 [wandb_run.py:_restore():1338] restore
+2021-01-29 22:55:42,603 INFO    MainThread:2769 [redirect.py:uninstall():232] uninstall start
+2021-01-29 22:55:42,604 INFO    MainThread:2769 [redirect.py:_stop():287] _stop: stdout
+2021-01-29 22:55:42,605 INFO    MainThread:2769 [redirect.py:_stop():293] _stop closed: stdout
+2021-01-29 22:55:42,605 INFO    stdout    :2769 [redirect.py:_pipe_relay():129] relay done saw last write: stdout
+2021-01-29 22:55:42,605 INFO    stdout    :2769 [redirect.py:_pipe_relay():145] relay done done: stdout
+2021-01-29 22:55:42,606 INFO    MainThread:2769 [redirect.py:_stop():299] _stop joined: stdout
+2021-01-29 22:55:42,606 INFO    MainThread:2769 [redirect.py:_stop():301] _stop rd closed: stdout
+2021-01-29 22:55:42,606 INFO    MainThread:2769 [redirect.py:uninstall():236] uninstall done
+2021-01-29 22:55:42,606 INFO    MainThread:2769 [redirect.py:uninstall():232] uninstall start
+2021-01-29 22:55:42,606 INFO    MainThread:2769 [redirect.py:_stop():287] _stop: stderr
+2021-01-29 22:55:42,607 INFO    MainThread:2769 [redirect.py:_stop():293] _stop closed: stderr
+2021-01-29 22:55:42,607 INFO    stderr    :2769 [redirect.py:_pipe_relay():129] relay done saw last write: stderr
+2021-01-29 22:55:42,607 INFO    stderr    :2769 [redirect.py:_pipe_relay():145] relay done done: stderr
+2021-01-29 22:55:42,607 INFO    MainThread:2769 [redirect.py:_stop():299] _stop joined: stderr
+2021-01-29 22:55:42,607 INFO    MainThread:2769 [redirect.py:_stop():301] _stop rd closed: stderr
+2021-01-29 22:55:42,607 INFO    MainThread:2769 [redirect.py:uninstall():236] uninstall done
+2021-01-29 22:55:42,747 INFO    MainThread:2769 [wandb_run.py:_wait_for_finish():1489] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 622
+  total_bytes: 622
+}
+
+2021-01-29 22:55:44,752 INFO    MainThread:2769 [wandb_run.py:_wait_for_finish():1489] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 4917
+  total_bytes: 4917
+}
+
+2021-01-29 22:55:46,162 INFO    MainThread:2769 [wandb_run.py:_show_files():1711] logging synced files
+2021-01-29 22:55:46,165 INFO    MainThread:2769 [internal.py:handle_exit():139] Internal process exited

@@ -1,0 +1,11 @@
+wandb: WARNING Calling wandb.login() after wandb.init() has no effect.
+Create sweep with ID: 8h3ci3ey
+Sweep URL: https://wandb.ai/dc925/graphmimic/sweeps/8h3ci3ey
+Traceback (most recent call last):
+  File "run_graphmimic.py", line 341, in <module>
+    main()
+  File "run_graphmimic.py", line 275, in main
+    if not os.path.exists(args.output_dir):
+  File "/home/dc925/miniconda3/envs/graphmimic/lib/python3.7/genericpath.py", line 19, in exists
+    os.stat(path)
+TypeError: stat: path should be string, bytes, os.PathLike or integer, not NoneType

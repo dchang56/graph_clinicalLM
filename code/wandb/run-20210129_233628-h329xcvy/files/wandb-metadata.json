@@ -1,0 +1,30 @@
+{
+    "os": "Linux-4.4.0-184-generic-x86_64-with-debian-buster-sid",
+    "python": "3.7.9",
+    "heartbeatAt": "2021-01-29T23:36:30.466755",
+    "startedAt": "2021-01-29T23:36:28.400983",
+    "docker": null,
+    "gpu": "Quadro P600",
+    "gpu_count": 4,
+    "cpu_count": 12,
+    "cuda": "10.0.130",
+    "args": [
+        "--do_train",
+        "--do_eval",
+        "--evaluate_during_training",
+        "--data_dir=/home/dc925/project/data/graphmimic/sample/",
+        "--learning_rate=0.0001",
+        "--max_seq_length=128",
+        "--model_name_or_path=xhlu/electra-medal",
+        "--num_train_epochs=4",
+        "--output_dir=/home/dc925/project/output/129/wandb",
+        "--per_gpu_eval_batch_size=32",
+        "--per_gpu_train_batch_size=32"
+    ],
+    "state": "running",
+    "codePath": "run_graphmimic.py",
+    "program": "run_graphmimic.py",
+    "host": "5d4a09149162",
+    "username": "dc925",
+    "executable": "/home/dc925/miniconda3/envs/graphmimic/bin/python"
+}

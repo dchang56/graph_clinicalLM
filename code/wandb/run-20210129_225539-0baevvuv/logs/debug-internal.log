@@ -1,0 +1,155 @@
+2021-01-29 22:55:40,279 INFO    MainThread:2799 [internal.py:wandb_internal():64] W&B internal server running at pid: 2799
+2021-01-29 22:55:40,281 DEBUG   HandlerThread:2799 [handler.py:handle_request():55] handle_request: check_version
+2021-01-29 22:55:40,281 INFO    WriterThread:2799 [datastore.py:open_for_write():77] open: /home/dc925/project/graphmimic/code/wandb/run-20210129_225539-0baevvuv/run-0baevvuv.wandb
+2021-01-29 22:55:40,282 DEBUG   SenderThread:2799 [sender.py:send():117] send: header
+2021-01-29 22:55:40,282 DEBUG   SenderThread:2799 [sender.py:send():117] send: request
+2021-01-29 22:55:40,283 DEBUG   SenderThread:2799 [sender.py:send_request():126] send_request: check_version
+2021-01-29 22:55:40,288 DEBUG   Thread-4  :2799 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): pypi.org:443
+2021-01-29 22:55:40,350 DEBUG   Thread-4  :2799 [connectionpool.py:_make_request():461] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 53088
+2021-01-29 22:55:40,373 DEBUG   SenderThread:2799 [sender.py:send():117] send: run
+2021-01-29 22:55:40,380 DEBUG   SenderThread:2799 [git.py:repo():33] git repository is invalid
+2021-01-29 22:55:40,388 DEBUG   SenderThread:2799 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-29 22:55:40,486 DEBUG   SenderThread:2799 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-29 22:55:40,495 INFO    SenderThread:2799 [dir_watcher.py:__init__():165] watching files in: /home/dc925/project/graphmimic/code/wandb/run-20210129_225539-0baevvuv/files
+2021-01-29 22:55:40,495 INFO    SenderThread:2799 [sender.py:_start_run_threads():596] run started: 0baevvuv with start time 1611960939
+2021-01-29 22:55:40,495 DEBUG   SenderThread:2799 [sender.py:send():117] send: summary
+2021-01-29 22:55:40,496 INFO    SenderThread:2799 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-01-29 22:55:40,499 DEBUG   HandlerThread:2799 [handler.py:handle_request():55] handle_request: run_start
+2021-01-29 22:55:41,501 INFO    Thread-8  :2799 [dir_watcher.py:_on_file_created():213] file/dir created: /home/dc925/project/graphmimic/code/wandb/run-20210129_225539-0baevvuv/files/wandb-summary.json
+2021-01-29 22:55:41,794 DEBUG   HandlerThread:2799 [meta.py:__init__():34] meta init
+2021-01-29 22:55:41,795 DEBUG   HandlerThread:2799 [meta.py:__init__():48] meta init done
+2021-01-29 22:55:41,795 DEBUG   HandlerThread:2799 [meta.py:probe():190] probe
+2021-01-29 22:55:41,802 DEBUG   HandlerThread:2799 [git.py:repo():33] git repository is invalid
+2021-01-29 22:55:41,802 DEBUG   HandlerThread:2799 [meta.py:_save_pip():52] save pip
+2021-01-29 22:55:41,803 DEBUG   HandlerThread:2799 [meta.py:_save_pip():66] save pip done
+2021-01-29 22:55:41,803 DEBUG   HandlerThread:2799 [meta.py:probe():231] probe done
+2021-01-29 22:55:41,858 DEBUG   SenderThread:2799 [sender.py:send():117] send: files
+2021-01-29 22:55:41,858 INFO    SenderThread:2799 [sender.py:_save_file():682] saving file wandb-metadata.json with policy now
+2021-01-29 22:55:41,871 DEBUG   HandlerThread:2799 [handler.py:handle_request():55] handle_request: status
+2021-01-29 22:55:41,871 DEBUG   SenderThread:2799 [sender.py:send():117] send: request
+2021-01-29 22:55:41,871 DEBUG   SenderThread:2799 [sender.py:send_request():126] send_request: status
+2021-01-29 22:55:41,874 DEBUG   SenderThread:2799 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-29 22:55:41,875 DEBUG   Thread-11 :2799 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-29 22:55:41,958 DEBUG   SenderThread:2799 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-29 22:55:41,976 DEBUG   Thread-11 :2799 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-29 22:55:41,984 DEBUG   Thread-11 :2799 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-01-29 22:55:42,239 DEBUG   Thread-11 :2799 [connectionpool.py:_make_request():461] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/dc925/graphmimic/0baevvuv/wandb-metadata.json?Expires=1612047341&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=Sg2Kjv%2F1%2FC949nBddaSC52V50%2BfgvnLC1wtNqPsi3fLSJcDlehEo%2BM7G227%2F4ujRkUSvFtsD2HJSbnWUcga%2BeOI90PNWaMMBm3aq9pLYNz4oGquECvdiJvABAPPnDvrJ045IYH6t0n4xU%2FtSCj2d%2Ba5MUCAQbAlb%2FBeMXiziF3SQMPfVlPQBERDWqvJlgGdWQTIvyoaIhJcQ7TD6YYS1WQUhISQu4xGSGhT3VwsEPVpo6godULjaXP%2BFZ8saj%2B3lnr8SB4z3tihhFUC%2Bo0b2A55ClFhIHll0sOtxRH9k1GWRVfSQXoeaoygCBX3hQ%2FByt6hLp5sGHg4PC0O1uJaiGQ%3D%3D HTTP/1.1" 200 0
+2021-01-29 22:55:42,241 INFO    Thread-11 :2799 [upload_job.py:push():133] Uploaded file /tmp/tmpkbjr1kxiwandb/2fl0vkbx-wandb-metadata.json
+2021-01-29 22:55:42,496 INFO    Thread-8  :2799 [dir_watcher.py:_on_file_created():213] file/dir created: /home/dc925/project/graphmimic/code/wandb/run-20210129_225539-0baevvuv/files/requirements.txt
+2021-01-29 22:55:42,497 INFO    Thread-8  :2799 [dir_watcher.py:_on_file_created():213] file/dir created: /home/dc925/project/graphmimic/code/wandb/run-20210129_225539-0baevvuv/files/wandb-metadata.json
+2021-01-29 22:55:42,498 INFO    Thread-8  :2799 [dir_watcher.py:_on_file_created():213] file/dir created: /home/dc925/project/graphmimic/code/wandb/run-20210129_225539-0baevvuv/files/output.log
+2021-01-29 22:55:42,609 DEBUG   HandlerThread:2799 [handler.py:handle_request():55] handle_request: poll_exit
+2021-01-29 22:55:42,610 DEBUG   Thread-5  :2799 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-29 22:55:42,610 DEBUG   SenderThread:2799 [sender.py:send():117] send: telemetry
+2021-01-29 22:55:42,626 DEBUG   SenderThread:2799 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-29 22:55:42,732 DEBUG   SenderThread:2799 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-29 22:55:42,743 DEBUG   SenderThread:2799 [sender.py:send():117] send: exit
+2021-01-29 22:55:42,744 INFO    SenderThread:2799 [sender.py:send_exit():195] handling exit code: 2
+2021-01-29 22:55:42,744 INFO    SenderThread:2799 [sender.py:send_exit():203] send defer
+2021-01-29 22:55:42,744 DEBUG   SenderThread:2799 [sender.py:send():117] send: request
+2021-01-29 22:55:42,745 DEBUG   Thread-5  :2799 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/dc925/graphmimic/0baevvuv/file_stream HTTP/1.1" 200 None
+2021-01-29 22:55:42,745 DEBUG   SenderThread:2799 [sender.py:send_request():126] send_request: poll_exit
+2021-01-29 22:55:42,745 DEBUG   HandlerThread:2799 [handler.py:handle_request():55] handle_request: defer
+2021-01-29 22:55:42,747 INFO    HandlerThread:2799 [handler.py:handle_request_defer():69] handle defer: 0
+2021-01-29 22:55:42,748 DEBUG   SenderThread:2799 [sender.py:send():117] send: request
+2021-01-29 22:55:42,748 DEBUG   SenderThread:2799 [sender.py:send_request():126] send_request: defer
+2021-01-29 22:55:42,748 INFO    SenderThread:2799 [sender.py:send_request_defer():212] handle sender defer: 0
+2021-01-29 22:55:42,748 INFO    SenderThread:2799 [sender.py:send_request_defer():248] send defer: 1
+2021-01-29 22:55:42,749 DEBUG   HandlerThread:2799 [handler.py:handle_request():55] handle_request: defer
+2021-01-29 22:55:42,749 INFO    HandlerThread:2799 [handler.py:handle_request_defer():69] handle defer: 1
+2021-01-29 22:55:42,816 DEBUG   SenderThread:2799 [sender.py:send():117] send: request
+2021-01-29 22:55:42,817 DEBUG   SenderThread:2799 [sender.py:send_request():126] send_request: defer
+2021-01-29 22:55:42,817 INFO    SenderThread:2799 [sender.py:send_request_defer():212] handle sender defer: 1
+2021-01-29 22:55:42,817 INFO    SenderThread:2799 [sender.py:send_request_defer():248] send defer: 2
+2021-01-29 22:55:42,817 DEBUG   SenderThread:2799 [sender.py:send():117] send: stats
+2021-01-29 22:55:42,819 DEBUG   HandlerThread:2799 [handler.py:handle_request():55] handle_request: defer
+2021-01-29 22:55:42,819 INFO    HandlerThread:2799 [handler.py:handle_request_defer():69] handle defer: 2
+2021-01-29 22:55:42,819 DEBUG   SenderThread:2799 [sender.py:send():117] send: request
+2021-01-29 22:55:42,819 DEBUG   SenderThread:2799 [sender.py:send_request():126] send_request: defer
+2021-01-29 22:55:42,820 INFO    SenderThread:2799 [sender.py:send_request_defer():212] handle sender defer: 2
+2021-01-29 22:55:42,820 INFO    SenderThread:2799 [sender.py:send_request_defer():248] send defer: 3
+2021-01-29 22:55:42,820 DEBUG   HandlerThread:2799 [handler.py:handle_request():55] handle_request: defer
+2021-01-29 22:55:42,820 INFO    HandlerThread:2799 [handler.py:handle_request_defer():69] handle defer: 3
+2021-01-29 22:55:42,821 DEBUG   SenderThread:2799 [sender.py:send():117] send: summary
+2021-01-29 22:55:42,821 INFO    SenderThread:2799 [sender.py:_save_file():682] saving file wandb-summary.json with policy end
+2021-01-29 22:55:42,822 DEBUG   SenderThread:2799 [sender.py:send():117] send: request
+2021-01-29 22:55:42,822 DEBUG   SenderThread:2799 [sender.py:send_request():126] send_request: defer
+2021-01-29 22:55:42,822 INFO    SenderThread:2799 [sender.py:send_request_defer():212] handle sender defer: 3
+2021-01-29 22:55:42,822 INFO    SenderThread:2799 [sender.py:send_request_defer():248] send defer: 4
+2021-01-29 22:55:42,823 DEBUG   HandlerThread:2799 [handler.py:handle_request():55] handle_request: defer
+2021-01-29 22:55:42,823 INFO    HandlerThread:2799 [handler.py:handle_request_defer():69] handle defer: 4
+2021-01-29 22:55:42,823 DEBUG   SenderThread:2799 [sender.py:send():117] send: request
+2021-01-29 22:55:42,823 DEBUG   SenderThread:2799 [sender.py:send_request():126] send_request: defer
+2021-01-29 22:55:42,824 INFO    SenderThread:2799 [sender.py:send_request_defer():212] handle sender defer: 4
+2021-01-29 22:55:42,824 INFO    SenderThread:2799 [dir_watcher.py:finish():279] shutting down directory watcher
+2021-01-29 22:55:43,497 INFO    Thread-8  :2799 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/dc925/project/graphmimic/code/wandb/run-20210129_225539-0baevvuv/files/config.yaml
+2021-01-29 22:55:43,498 INFO    SenderThread:2799 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/dc925/project/graphmimic/code/wandb/run-20210129_225539-0baevvuv/files/wandb-summary.json
+2021-01-29 22:55:43,499 INFO    SenderThread:2799 [dir_watcher.py:_on_file_modified():226] file/dir modified: /home/dc925/project/graphmimic/code/wandb/run-20210129_225539-0baevvuv/files/output.log
+2021-01-29 22:55:43,499 INFO    SenderThread:2799 [dir_watcher.py:finish():309] scan: /home/dc925/project/graphmimic/code/wandb/run-20210129_225539-0baevvuv/files
+2021-01-29 22:55:43,500 INFO    SenderThread:2799 [dir_watcher.py:finish():315] scan save: /home/dc925/project/graphmimic/code/wandb/run-20210129_225539-0baevvuv/files/requirements.txt requirements.txt
+2021-01-29 22:55:43,500 INFO    SenderThread:2799 [dir_watcher.py:finish():315] scan save: /home/dc925/project/graphmimic/code/wandb/run-20210129_225539-0baevvuv/files/config.yaml config.yaml
+2021-01-29 22:55:43,510 INFO    SenderThread:2799 [dir_watcher.py:finish():315] scan save: /home/dc925/project/graphmimic/code/wandb/run-20210129_225539-0baevvuv/files/wandb-summary.json wandb-summary.json
+2021-01-29 22:55:43,510 DEBUG   Thread-12 :2799 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-29 22:55:43,519 DEBUG   Thread-13 :2799 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-29 22:55:43,519 INFO    SenderThread:2799 [dir_watcher.py:finish():315] scan save: /home/dc925/project/graphmimic/code/wandb/run-20210129_225539-0baevvuv/files/wandb-metadata.json wandb-metadata.json
+2021-01-29 22:55:43,529 INFO    SenderThread:2799 [dir_watcher.py:finish():315] scan save: /home/dc925/project/graphmimic/code/wandb/run-20210129_225539-0baevvuv/files/output.log output.log
+2021-01-29 22:55:43,530 DEBUG   Thread-14 :2799 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-29 22:55:43,530 INFO    SenderThread:2799 [sender.py:send_request_defer():248] send defer: 5
+2021-01-29 22:55:43,531 DEBUG   HandlerThread:2799 [handler.py:handle_request():55] handle_request: defer
+2021-01-29 22:55:43,531 INFO    HandlerThread:2799 [handler.py:handle_request_defer():69] handle defer: 5
+2021-01-29 22:55:43,539 DEBUG   Thread-15 :2799 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-29 22:55:43,540 DEBUG   SenderThread:2799 [sender.py:send():117] send: request
+2021-01-29 22:55:43,540 DEBUG   SenderThread:2799 [sender.py:send_request():126] send_request: defer
+2021-01-29 22:55:43,542 INFO    SenderThread:2799 [sender.py:send_request_defer():212] handle sender defer: 5
+2021-01-29 22:55:43,542 INFO    SenderThread:2799 [file_pusher.py:finish():174] shutting down file pusher
+2021-01-29 22:55:43,542 INFO    SenderThread:2799 [sender.py:send_request_defer():248] send defer: 6
+2021-01-29 22:55:43,543 DEBUG   HandlerThread:2799 [handler.py:handle_request():55] handle_request: defer
+2021-01-29 22:55:43,543 INFO    HandlerThread:2799 [handler.py:handle_request_defer():69] handle defer: 6
+2021-01-29 22:55:43,544 DEBUG   SenderThread:2799 [sender.py:send():117] send: request
+2021-01-29 22:55:43,544 DEBUG   SenderThread:2799 [sender.py:send_request():126] send_request: defer
+2021-01-29 22:55:43,544 INFO    SenderThread:2799 [sender.py:send_request_defer():212] handle sender defer: 6
+2021-01-29 22:55:43,620 DEBUG   Thread-12 :2799 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-29 22:55:43,628 DEBUG   Thread-12 :2799 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-01-29 22:55:43,636 DEBUG   Thread-13 :2799 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-29 22:55:43,637 DEBUG   Thread-5  :2799 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/dc925/graphmimic/0baevvuv/file_stream HTTP/1.1" 200 None
+2021-01-29 22:55:43,648 DEBUG   Thread-13 :2799 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-01-29 22:55:43,649 DEBUG   Thread-15 :2799 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-29 22:55:43,649 DEBUG   Thread-14 :2799 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-29 22:55:43,658 DEBUG   Thread-15 :2799 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-01-29 22:55:43,665 DEBUG   Thread-14 :2799 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): storage.googleapis.com:443
+2021-01-29 22:55:43,714 DEBUG   Thread-5  :2799 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/dc925/graphmimic/0baevvuv/file_stream HTTP/1.1" 200 None
+2021-01-29 22:55:43,716 INFO    SenderThread:2799 [sender.py:send_request_defer():248] send defer: 7
+2021-01-29 22:55:43,717 DEBUG   HandlerThread:2799 [handler.py:handle_request():55] handle_request: defer
+2021-01-29 22:55:43,717 INFO    HandlerThread:2799 [handler.py:handle_request_defer():69] handle defer: 7
+2021-01-29 22:55:43,717 DEBUG   SenderThread:2799 [sender.py:send():117] send: request
+2021-01-29 22:55:43,717 DEBUG   SenderThread:2799 [sender.py:send_request():126] send_request: defer
+2021-01-29 22:55:43,717 INFO    SenderThread:2799 [sender.py:send_request_defer():212] handle sender defer: 7
+2021-01-29 22:55:43,718 INFO    SenderThread:2799 [sender.py:send_request_defer():248] send defer: 8
+2021-01-29 22:55:43,719 DEBUG   HandlerThread:2799 [handler.py:handle_request():55] handle_request: defer
+2021-01-29 22:55:43,719 DEBUG   SenderThread:2799 [sender.py:send():117] send: final
+2021-01-29 22:55:43,719 INFO    HandlerThread:2799 [handler.py:handle_request_defer():69] handle defer: 8
+2021-01-29 22:55:43,719 DEBUG   SenderThread:2799 [sender.py:send():117] send: footer
+2021-01-29 22:55:43,720 DEBUG   SenderThread:2799 [sender.py:send():117] send: request
+2021-01-29 22:55:43,720 DEBUG   SenderThread:2799 [sender.py:send_request():126] send_request: defer
+2021-01-29 22:55:43,720 INFO    SenderThread:2799 [sender.py:send_request_defer():212] handle sender defer: 8
+2021-01-29 22:55:43,889 DEBUG   Thread-15 :2799 [connectionpool.py:_make_request():461] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/dc925/graphmimic/0baevvuv/output.log?Expires=1612047343&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=jhhqx9PaZ1%2FWwsAuhx%2FpNZn7KNcbRL%2FtHoRLOcVuap1DJto38s5ONqxkl2IYRViWaQRchEofQkV%2FxCJ6yoj0ReFjnr2sw1C2cjItBc%2BUexFeXGjew0NXBPrp2zHHbkMtgxxH6h%2FPucyP8zpMBYkXN6KqxTLS%2BUlIVBv5N5cp%2FelV6KpFiqgdCSGRQPTYo0pQ6ppDk5XDrmnhNdDdwUZ6YIZGEZCOJR%2B3U179xxPRj8FbO04YNI6x9ppotDX7e4FmsSow7LupZ5EJU5igL16EmZo%2BG3M%2BzWjY98BtdoNvQD6iqyRXfXvA1tdMiwu44lckMSIHbET0H1%2FBEAfRnXP8dQ%3D%3D HTTP/1.1" 200 0
+2021-01-29 22:55:43,890 INFO    Thread-15 :2799 [upload_job.py:push():133] Uploaded file /home/dc925/project/graphmimic/code/wandb/run-20210129_225539-0baevvuv/files/output.log
+2021-01-29 22:55:43,911 DEBUG   Thread-13 :2799 [connectionpool.py:_make_request():461] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/dc925/graphmimic/0baevvuv/config.yaml?Expires=1612047343&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=CPbVQ2TIPrZ0bCd087OH9bASHtRSy6%2BNTfAQXOD8FqM8Poef5bDasbZiB8fOd5Yhf6hkSgVYTjmU53bgG7KJzjHo2dyvo760zQGGZsRxHQt2E7xBKJ%2F5Z7RuLNPg0Z47RZ6%2FY4yVNndZnVgUvUQfiLlHP2178xL6%2FHhKvOLM%2BHspf6NHg%2B4y5TcIk1QlW2ofuUQbBEV3X6k6pfXcte0KA9E9U4r%2BrQu3eGUW4w3dZOFHPQ3pnnWRLoY%2BQ%2F6qD%2BEg79oEh1rxl3YQzmxJNmq8ce3rHARrwQ8jO%2FTGTLDJHgfq%2FdrIX19cA1y8xJJ0a8cg4%2FKXMpelRG9bjl5ljbpB5Q%3D%3D HTTP/1.1" 200 0
+2021-01-29 22:55:43,912 INFO    Thread-13 :2799 [upload_job.py:push():133] Uploaded file /home/dc925/project/graphmimic/code/wandb/run-20210129_225539-0baevvuv/files/config.yaml
+2021-01-29 22:55:43,920 DEBUG   Thread-12 :2799 [connectionpool.py:_make_request():461] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/dc925/graphmimic/0baevvuv/requirements.txt?Expires=1612047343&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=UJ3JULvv8hhh678B6TzJ7qogMSj14Tcj6pwQJjNtr0oK56csXY81p2UQikH1vEaXYGfo29q7dhTvg6187kFHr1ht%2BtsTooLcM12TLGwUEXndP2UPdYLHsIGwDg5ZOBERxEN%2F7yilA7O6WI%2B5%2B91cn1jUMUJkero3ysf4lCe%2BKBgsbCY1UOZsikNsBoua50YMmrxP%2F48UyMkPjqeC%2BQ9Q0u3GHO91KF8jgRnFEqTooZ%2Bgw%2F5C7flMxeGelqFJpaydI3NtETKtCKzcs%2BdsB6WmPFJQuPO2438EnQksyTpkSfdxGLiw8uTq8L2iz8e%2FGQgv9PsS3AIAJaT2oAHBoslg7w%3D%3D HTTP/1.1" 200 0
+2021-01-29 22:55:43,922 INFO    Thread-12 :2799 [upload_job.py:push():133] Uploaded file /home/dc925/project/graphmimic/code/wandb/run-20210129_225539-0baevvuv/files/requirements.txt
+2021-01-29 22:55:43,942 DEBUG   Thread-14 :2799 [connectionpool.py:_make_request():461] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/dc925/graphmimic/0baevvuv/wandb-summary.json?Expires=1612047343&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=k%2FndDEBN4kJmBBqhH%2FmvmujeTY8demdypM5h411cDLoIiOTtmfsfMxM7c7OlZ%2F5G1SsyoyfBrfLRUGKDMwy0zU8glaOwGqvXFUCRVvYbGbZKruRS0jtNPqAFJJONXGgnynw%2Fc1YI4%2BZRG8goP2glq17aAHNhdjgCNWwpl57uS5v63ZMo6%2FPkB3A5Y472%2BADB0I35MbU876Ku1gCxH2xwtbERIXMAcQLC3K9eG53p3vkO8uR6xx7Hfq3AQFlmO4MK7bZswJKNZnXpNngbIoVPVp1R893PRPZKy%2FxUnmUaQGC5hjESeELozKpU0Z%2BBJvLGpvoMB%2B%2FpPQ8ZAJDbBmoQ8g%3D%3D HTTP/1.1" 200 0
+2021-01-29 22:55:43,944 INFO    Thread-14 :2799 [upload_job.py:push():133] Uploaded file /home/dc925/project/graphmimic/code/wandb/run-20210129_225539-0baevvuv/files/wandb-summary.json
+2021-01-29 22:55:44,751 DEBUG   HandlerThread:2799 [handler.py:handle_request():55] handle_request: poll_exit
+2021-01-29 22:55:44,751 DEBUG   SenderThread:2799 [sender.py:send():117] send: request
+2021-01-29 22:55:44,751 DEBUG   SenderThread:2799 [sender.py:send_request():126] send_request: poll_exit
+2021-01-29 22:55:44,752 INFO    SenderThread:2799 [file_pusher.py:join():179] waiting for file pusher
+2021-01-29 22:55:44,754 DEBUG   HandlerThread:2799 [handler.py:handle_request():55] handle_request: get_summary
+2021-01-29 22:55:44,755 DEBUG   HandlerThread:2799 [handler.py:handle_request():55] handle_request: sampled_history
+2021-01-29 22:55:44,756 DEBUG   HandlerThread:2799 [handler.py:handle_request():55] handle_request: shutdown
+2021-01-29 22:55:44,757 INFO    HandlerThread:2799 [handler.py:finish():274] shutting down handler
+2021-01-29 22:55:45,719 INFO    WriterThread:2799 [datastore.py:close():258] close: /home/dc925/project/graphmimic/code/wandb/run-20210129_225539-0baevvuv/run-0baevvuv.wandb
+2021-01-29 22:55:45,752 INFO    SenderThread:2799 [sender.py:finish():756] shutting down sender
+2021-01-29 22:55:45,752 INFO    SenderThread:2799 [file_pusher.py:finish():174] shutting down file pusher
+2021-01-29 22:55:45,752 INFO    SenderThread:2799 [file_pusher.py:join():179] waiting for file pusher
+2021-01-29 22:55:45,754 INFO    MainThread:2799 [internal.py:handle_exit():139] Internal process exited

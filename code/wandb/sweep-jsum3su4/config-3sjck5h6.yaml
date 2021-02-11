@@ -1,0 +1,20 @@
+wandb_version: 1
+
+codes_learning_rate:
+  value: 1.0e-05
+data_dir:
+  value: /home/dc925/project/data/graphmimic/mortality/full_chunked
+learning_rate:
+  value: 1.0e-05
+max_seq_length:
+  value: 512
+model_name_or_path:
+  value: xhlu/electra-medal
+num_train_epochs:
+  value: 4
+output_dir:
+  value: /home/dc925/project/output/209/kge
+task:
+  value: mortality
+threshold:
+  value: 0.25

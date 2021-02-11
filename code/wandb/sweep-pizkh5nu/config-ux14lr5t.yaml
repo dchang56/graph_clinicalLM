@@ -1,0 +1,18 @@
+wandb_version: 1
+
+data_dir:
+  value: /home/dc925/project/data/graphmimic/sample/
+learning_rate:
+  value: 0.0001
+max_seq_length:
+  value: 128
+model_name_or_path:
+  value: xhlu/electra-medal
+num_train_epochs:
+  value: 4
+output_dir:
+  value: $OUTPUT_DIR
+per_gpu_eval_batch_size:
+  value: 32
+per_gpu_train_batch_size:
+  value: 16
